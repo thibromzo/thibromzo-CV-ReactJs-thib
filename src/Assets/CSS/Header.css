@@ -1,0 +1,56 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.bg-secondary {
+  --bs-bg-opacity: 1;
+  background-color: #1e1e1e !important;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  justify-content: center;
+  align-content: stretch;
+  flex-direction: column-reverse;
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: white;
+  opacity: 100%;
+}
+
+.container>h3>a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  opacity: 100%;
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: #ffffff;
+  opacity: 50%;
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.ms-auto {
+  margin-left: auto !important;
+}

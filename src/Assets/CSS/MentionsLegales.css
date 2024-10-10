@@ -1,0 +1,20 @@
+#trait{
+    text-align: center;
+}
+
+.appTitre{
+  text-align: center;
+}
+
+.accordion{
+  margin: 0 10em 1em 10em;
+}
+
+/*_________________________________*/
+
+@media screen and (max-width: 915px) {
+  .accordion
+  {
+    margin: 0 1em 1em 1em;
+  }
+}

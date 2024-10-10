@@ -1,0 +1,21 @@
+.appRoute{
+    text-align: center;
+  }
+
+  .appRoute>img{
+    width: 100%;
+  }
+
+.appRoute>.appTitre{
+  margin-top: 1em;
+}
+
+  #trait{
+    color: #0d6efd;
+  }
+  
+.card-body>i{
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: #0d6efd;
+  }

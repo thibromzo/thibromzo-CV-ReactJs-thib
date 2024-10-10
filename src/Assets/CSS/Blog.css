@@ -1,0 +1,53 @@
+.appRoute{
+    text-align: center;
+  }
+
+#trait{
+    color: blue;
+  }
+
+.mainRoute2>#col3{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 1em;
+    box-shadow: RGB(220, 220, 220) 1px 0px 6px;
+    height: fit-content;
+  }
+
+.mainRoute2>#col3>img{
+    width: 18em;
+    margin-bottom: 1em;
+  }
+
+.mainRoute2>#col3>h2{
+    display: flex;
+    margin: 0 0 0.5em 0.4em;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+
+.mainRoute2>#col3>p{
+    margin: 0 1em;
+    font-size: 0.7em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.mainRoute2>#col3>#bouton2{
+    width: fit-content;
+    margin-top: 0.5em;
+  }
+
+#col3>.realisation{
+    background-color:  #dcdcdc;
+    width: 100%;
+    margin-top: 1em;
+    box-shadow: RGB(220, 220, 220) 1px 0px 6px;
+  }
+
+#col3>.realisation>p{
+    margin: 0.5em;
+    font-size: 0.7em;
+    text-align: start;
+  }
